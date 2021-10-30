@@ -1,0 +1,28 @@
+.emptyAll{
+    width:100%;
+    min-height:720px;
+    height:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.empty_title{
+    width:500px;
+    height:150px;
+    border :1px solid #fff;
+    border-radius: 10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.empty_title > h4 {
+    margin-right:10px;
+}
+.empty_button {
+    border-radius: 5px;
+    color:#83A0D2;
+    border:#ebebeb;
+    background-color: #fff;
+    margin-top:10px;
+}

@@ -1,0 +1,32 @@
+.deleteAll{
+    width:100%;
+    min-height:720px;
+    height:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.delete_title{
+    width:500px;
+    height:150px;
+    border :1px solid #fff;
+    border-radius: 10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.delete_title > h4 {
+    margin-right:10px;
+}
+.delete_btn {
+    float:left;
+    flex-direction:row;
+    margin-top:10px;
+}
+.delete_button {
+    border-radius: 5px;
+    color:#83A0D2;
+    border:#ebebeb;
+    background-color: #fff;
+}

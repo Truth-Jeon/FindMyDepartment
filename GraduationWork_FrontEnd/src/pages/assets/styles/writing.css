@@ -1,0 +1,130 @@
+.writing{
+    display:flex;
+    justify-content: center;
+    margin: 0 auto;
+    width:1200px;
+    height:100%;
+}
+.writing_start{
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-top:50px;
+}
+.title{
+    text-align: center;
+    margin-bottom:50px;
+    width:1200px;
+    padding-left:130px;
+    padding-right:130px;
+}
+.writing_nickname{
+    padding-left:50px;
+    padding-right:50px;
+}
+.writing_nickname > h5 {
+    float:left;
+}
+.writing_nickname > input {
+    border:none;
+    margin-left:10px;
+    width:300px;
+}
+.writing_nickname > input:focus {
+    outline:3px solid #C0D4F8;
+    margin-left:10px;
+    width:300px;
+}
+.writing_password{
+    padding-left:50px;
+    padding-right:50px;
+}
+.writing_password > h5 {
+    float:left;
+}
+.writing_password > input {
+    border:none;
+    margin-left:10px;
+    width:300px;
+}
+.writing_password > input:focus {
+    outline:3px solid #C0D4F8;
+    margin-left:10px;
+    width:300px;
+}
+.writing_title{
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-top:20px;
+    width:1200px;
+    float:left;
+    padding-left:130px;
+    padding-right:130px;
+}
+.writing_title > h5 {
+    float:left;
+}
+.writing_title > input {
+    border:none;
+    margin-left:10px;
+    width:885px;
+}
+.writing_title > input:focus {
+    outline:3px solid #C0D4F8;
+    margin-left:10px;
+    width:885px;
+}
+.writing_content{
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-top:20px;
+    margin-bottom:50px;
+    width:1200px;
+    float:left;
+    padding-left:130px;
+    padding-right:130px;
+}
+.writing_content > textarea {
+    border:none;
+    resize: none;
+    width:942px;
+    height:340px;
+    margin-bottom:20px;
+}
+.writing_content > textarea:focus {
+    outline:3px solid #C0D4F8;
+    resize: none;
+    width:942px;
+    height:340px;
+    margin-bottom:20px;
+}
+
+.registration_btn, .registration_btn:visited, .registration_btn:hover, .registration_btn:active {
+    display:flex;
+    margin: 0 auto;
+    border-radius: 5px;
+    color:#83A0D2;
+    border:#ebebeb;
+    background-color: white;
+    font-size: 20px;
+    padding:5px 10px;
+}
+.registration_btn:active, .registration_btn:focus {
+    display:flex;
+    margin: 0 auto;
+    border-radius: 5px;
+    color:#83A0D2;
+    border:#ebebeb;
+    background-color: white;
+    font-size: 20px;
+    padding:5px 10px;
+}
+.registration_btn > a {
+    text-decoration: none;
+}
+.registration_btn > a:link, .registration_btn > a:hover, .registration_btn > a:active, .registration_btn > a:visited {
+    color: #83A0D2;
+    text-decoration: none;
+}
